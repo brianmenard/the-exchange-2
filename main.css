@@ -70,7 +70,6 @@ p{
 .header_row{
     padding-top: 100px; padding-bottom: 100px;
     padding-left: 50px; padding-right: 50px;
-    border-bottom: #fafafa thin solid;
 }
 
 .header{
@@ -84,17 +83,20 @@ p{
 .overview_row{
     padding-top: 100px; padding-bottom: 100px;
     padding-left: 50px; padding-right: 50px;
-    border-bottom: #fafafa thin solid;
+}
+
+.overview_container{
+    padding-right: 100px;
 }
 
 .sketch_container{
     text-align: center;
+    padding-right: 100px;
 }
 
 .inventory_row{
     padding-top: 100px; padding-bottom: 100px;
     padding-left: 50px; padding-right: 50px;
-    border-bottom: #fafafa thin solid;
     text-align: center;
 }
 
