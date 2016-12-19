@@ -4,6 +4,12 @@ Gray: #a09ea2
 
 Red: #DE594A
 
+Light red: #FE8376
+
+really light red:  FFABA2
+
+dark red: C53425
+
 **/
 
 /** OVERRIDES **/
@@ -20,6 +26,10 @@ h1{
 
 h2{
     font-size: 150%;
+}
+
+h3{
+    font-size: 135%;
 }
 
 h4{
@@ -112,4 +122,37 @@ p{
 .prod1{
     margin:5px;
     padding: 10px;
+}
+
+.services_row{
+    background-color: #DE594A;
+    padding-top: 100px; padding-bottom: 100px;
+    padding-left: 50px; padding-right: 50px;
+}
+
+.services_container{
+    color: white;
+    padding-right: 100px;
+}
+
+.services_container h1{
+    font-size: 200%;
+}
+
+.services_container p{
+    color: #FFABA2;
+    margin-bottom: 50px;
+}
+
+.services_description_container{
+    padding-left: 100px;
+}
+
+.services_description_container h3{
+    color:white;
+}
+
+.services_description_container p{
+    color: #FFABA2;
+    margin-bottom: 50px;
 }
