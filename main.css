@@ -18,6 +18,10 @@ h1{
     font-size: 300%;
 }
 
+h2{
+    font-size: 150%;
+}
+
 h4{
     color: black;
     font-size: 120%;
@@ -75,6 +79,16 @@ p{
 
 .red{
     color:#DE594A;
+}
+
+.overview_row{
+    padding-top: 100px; padding-bottom: 100px;
+    padding-left: 50px; padding-right: 50px;
+    border-bottom: #fafafa thin solid;
+}
+
+.sketch_container{
+    text-align: center;
 }
 
 .inventory_row{
