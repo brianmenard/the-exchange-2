@@ -171,3 +171,13 @@ p{
     color: #FFABA2;
     margin-bottom: 50px;
 }
+
+.footer{
+    background-color: blue;
+    padding-top: 100px; padding-bottom: 100px;
+    padding-left: 50px; padding-right: 50px;
+}
+
+.footer_container h2{
+    text-align: center;
+}
