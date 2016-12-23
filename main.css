@@ -60,20 +60,34 @@ p{
     flex-direction: row;
 }
 
+.logo{
+    height:50px;
+    position: absolute;
+    left:50px;
+}
+
+
 .navigation{
-    border-bottom: #fafafa thin solid;
-    padding-top: 15px;
+    /** border-bottom: #fafafa thin solid; **/
+    padding-top: 50px;
     padding-bottom: 15px;
+    padding-right:50px;
+    font-size: 80%;
 }
 
 .nav_link_container{
     text-align: right;
+    position: relative;
 }
 
-.nav_link_container a, .nav_link_container a:hover{
+.nav_link_container a{
     color:black;
     text-decoration: none;
     margin: 15px;
+}
+
+.nav_link_container a:hover{
+    color: #DE594A;
 }
 
 
@@ -145,7 +159,8 @@ p{
 }
 
 .services_description_container{
-    padding-left: 100px;
+    padding-left: 50px;
+    padding-right:50px;
 }
 
 .services_description_container h3{
